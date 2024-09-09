@@ -16,7 +16,7 @@ npm i -D c8
 ```json
 {
   "scripts": {
-    "test": "c8 node bin/test.js"
+    "test": "c8 node ace test"
   }
 }
 ```
@@ -36,7 +36,7 @@ npm i -D nyc
 ```json
 {
   "scripts": {
-    "test": "nyc node bin/test.js"
+    "test": "nyc node ace test"
   }
 }
 ```
